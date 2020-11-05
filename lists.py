@@ -5,8 +5,7 @@ def caesar_cipher(message, key):
     pass
 
 def fizzbuzz(n):
-    pass
-        
+    pass 
 
 def main():
     print('Table of the sum for the first n odd numbers:')
@@ -24,7 +23,6 @@ def main():
 
     for i in fizzbuzz(25):
         print(i)
-
 
 if __name__ == '__main__':
     main()
