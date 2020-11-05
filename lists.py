@@ -2,8 +2,7 @@ def sum_of_odd_nums(n):
     pass
 
 def caesar_cipher(message, key):
-    cipher = [ord(c) + key for c in message]
-    return bytes(cipher).decode('ascii')
+    pass
 
 def fizzbuzz(n):
     pass
