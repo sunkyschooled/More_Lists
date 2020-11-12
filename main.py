@@ -1,12 +1,25 @@
 def sum_of_odd_nums(n):
-    pass
+    numbers = list(range(1,(n*2)))
+    odds = [i for i in numbers if i%2 == 1]
+    return sum(odds)
+    
 
 def caesar_cipher(message, key):
-    pass
-
+    list1 = [ord(i)+key for i in message]
+    return bytes(list1).decode('ascii')
 def fizzbuzz(n):
-    pass 
-
+    listy = list(range(1,n+1))
+    def Buzzy(m):
+      if m%3 == 0 and m%5 == 0:
+        return "Fizzbuzz!"
+      elif m%3 == 0:
+        return "Fizz!"
+      elif m%5 == 0:
+        return "Buzz!"
+      else:
+        return m
+    listie = [Buzzy(i) for i in listy]
+    return listie
 def main():
     print('Table of the sum for the first n odd numbers:')
     print('n\tsum')
